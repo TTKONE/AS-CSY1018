@@ -1,14 +1,14 @@
 header{
-    background-color: royalblue;
+    background-color: rgb(65, 225, 92);
     color:white;
     padding: 20px;
 }
 
 nav{
-    background-color: yellow;
+    background-color: rgba(9, 255, 0, 0.205);
     display: block;
     width: 150px;
-    height: 300px;
+    height:500px;
     float: left;
   
     
@@ -22,6 +22,8 @@ nav ul{
 main{
     background-color: darkcyan;
     color: white;
+    height:500px ;
+   
 }
 
 aside{
@@ -41,7 +43,7 @@ a:hover{
     font-weight: bold;
 }
 
-form:{
+form{
     display:grid;
     width:400px;
     grid-template-columns: 50% 50%;
@@ -51,4 +53,9 @@ form:{
 }
 .submit{
     grid-column:2;
+}
+img{
+    display: grid;
+    width: 400px;
+    grid-template-columns: 50% 50%;
 }
