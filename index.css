@@ -28,7 +28,7 @@ main{
 }
 
 aside{
-    background-color: lightgreen;
+    background-color:lightgreen;
     
 }
 footer{
@@ -60,7 +60,9 @@ img{
     width: 400px;
     grid-template-columns: 50% 50%;
 }
-
+img {
+    border-radius: 50%;
+  }
 h3{
     color: grey;
 }
