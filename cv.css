@@ -21,9 +21,11 @@ nav ul{
 
 }
 main{
+    
     background-color:white;
     color:black;
     height:500px ;
+    width: 800;
    
 }
 
@@ -56,7 +58,7 @@ form{
     grid-column:2;
 }
 img{
-    display: grid;
+    display: right;
     width: 400px;
     grid-template-columns: 50% 50%;
 }
