@@ -9,8 +9,8 @@ header{
 nav{
     background-color: lightblue;
     display: block;
-    width: 150px;
-    height:500px;
+    width: auto;
+    height:auto;
     float: left;
     grid-area: nav;
   
@@ -23,7 +23,7 @@ nav ul{
 
 }
 main{
-    background-color:white;
+    background-color:cadetblue;
     color:black;
     height:500px ;
    grid-area: main;
@@ -59,11 +59,7 @@ form{
 .submit{
     grid-column:2;
 }
-img{
-    display: grid;
-    width: 400px;
-    grid-template-columns: 50% 50%;
-}
+
 img {
     border-radius: 50%;
   }

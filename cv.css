@@ -9,8 +9,8 @@ header{
 nav{
     background-color: lightblue;
     display: block;
-    width: 150px;
-    height:500px;
+    width: auto;
+    height:auto;
     float: left;
     grid-area: nav;
   
@@ -24,7 +24,7 @@ nav ul{
 }
 main{
     
-    background-color:white;
+    background-color:cadetblue;
     color:black;
     height:500px ;
     width: 800;

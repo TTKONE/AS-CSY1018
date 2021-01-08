@@ -9,8 +9,8 @@ header{
 nav{
     background-color: lightblue;
     display: block;
-    width: 150px;
-    height:500px;
+    width: auto;
+    height:auto;
     float: left;
     grid-area: nav;
   
@@ -70,3 +70,12 @@ img {
   }
 
 
+body {
+    display: grid;
+    grid-template-columns:20% 60% 20%;
+    grid-template-rows:auto;
+    grid-template-areas:"header header header"
+    "nav main main"
+    "aside aside aside"
+    "footer footer footer";
+}
