@@ -19,23 +19,19 @@ nav{
 nav ul{
     list-style-type: none;
 
-   
+  
 
 }
 main{
-    
     background-color:white;
     color:black;
     height:500px ;
-    width: 800;
-    grid-area: main;
-
-   
+   grid-area: main;
 }
 
 aside{
-    background-color: lightgreen;
-    grid-area:aside;
+    background-color:lightgreen;
+    grid-area: aside;
     
 }
 footer{
@@ -64,22 +60,13 @@ form{
     grid-column:2;
 }
 img{
-    display: right;
+    display: grid;
     width: 400px;
     grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
 }
+img {
+    border-radius: 50%;
+  }
 
-h3{
-    color: grey;
-}
 
-body {
-    display: grid;
-    grid-template-columns:20% 60% 20%;
-    grid-template-rows:auto;
-    grid-template-areas:"header header header"
-    "nav main main"
-    "aside aside aside"
-    "footer footer footer";
-
-}
