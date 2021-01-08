@@ -65,8 +65,10 @@ form{
 }
 img{
     display: right;
+    display:block;
     width: 400px;
     grid-template-columns: 50% 50%;
+    
 }
 
 h3{
