@@ -1,15 +1,20 @@
 header{
-    background-color: lightblue;
+    background-color: blue;
     color:black;
     padding: 20px;
+    grid-area: header;
 }
 
 nav{
-    background-color: yellow;
+    background-color:lightblue;
     display: block;
-    width: 150px;
-    height: 300px;
+    width: 200px;
+    height: 1000px;
     float: left;
+    grid-area: nav;
+}
+nav ul{
+    list-style-type: none;
 }
 a{
     color:blue;
@@ -19,29 +24,34 @@ a:hover{
     font-weight: bold;
 }
 main{
-    background-color: white;
+    background-color:cadetblue;
+    display: block;
     color: black;
     padding: 0%;
     margin: 0%;
+    grid-area:main;
 }
 
 aside{
     background-color: lightgreen;
+    grid-area: aside;
     
 }
 footer{
     background-color: darkgreen;
     color: white;
-}
-.shownav{
-    height: 0.8em;
-    width: 1.25;
-    display: block;
-    border-top: 0.2em solid white;
-    border-bottom: 0.2em solid white;
-    border-radius: 0.1em;
+    grid-area: footer;
 }
 
+
+
+img{
+    display: grid;
+    display: inline;
+    width: 400px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: auto;
+}
 img {
     border-radius: 50%;
   }
@@ -50,7 +60,7 @@ img {
     grid-template-columns:20% 60% 20%;
     grid-template-rows:auto;
     grid-template-areas:"header header header"
-    "nav main main"
-    "aside aside aside"
+    "nav main aside"
+    
     "footer footer footer";
 }
