@@ -27,7 +27,7 @@ main{
     background-color:cadetblue;
     color:black;
     height:500px ;
-    width: 800;
+    width: auto;
     grid-area: main;
 
    
@@ -64,9 +64,8 @@ form{
     grid-column:2;
 }
 img{
-    display: right;
     display:block;
-    width: 400px;
+    width: 100px;
     grid-template-columns: 50% 50%;
     
 }
