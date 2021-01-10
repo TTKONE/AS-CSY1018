@@ -25,7 +25,7 @@ nav ul{
 main{
     background-color:cadetblue;
     color:black;
-    height:500px ;
+    height:auto ;
    grid-area: main;
 }
 
@@ -60,17 +60,18 @@ form{
     grid-column:2;
 }
 
-img {
-    border-radius: 50%;
-   
-  }
 
+   
+  
   img{
-    display:inline-block;
-    width: 250px;
-    height:150px;
+    display: grid;
+    display: inline;
+    width: 450px;
+    height:200px;
     grid-template-columns: 50% 50%;
-  }
+    grid-template-rows: auto;
+}
+  
 h3{
     color: black;
 }
