@@ -34,6 +34,7 @@ main{
 
 aside{
     background-color: lightgreen;
+    display: block;
     grid-area: aside;
     
 }
@@ -43,6 +44,14 @@ footer{
     grid-area: footer;
 }
 
+form{
+    display:grid;
+    width:400px;
+    grid-template-columns: 50% 50%;
+    align-items: center;
+    grid-gap: 0.5em;
+    
+}
 
 
 img{

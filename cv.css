@@ -26,7 +26,7 @@ main{
     
     background-color:cadetblue;
     color:black;
-    height:500px ;
+    height:auto ;
     width: auto;
     grid-area: main;
 
@@ -52,14 +52,8 @@ a:hover{
     font-weight: bold;
 }
 
-form{
-    display:grid;
-    width:400px;
-    grid-template-columns: 50% 50%;
-    align-items: center;
-    grid-gap: 0.5em;
     
-}
+
 .submit{
     grid-column:2;
 }
